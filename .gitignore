@@ -1,26 +1,23 @@
-#######################################################
-# Ignore Everything
-#######################################################
-*
+
 
 #######################################################
 # Allow Required ASP.NET Core MVC Folders
 #######################################################
-!Controllers/
-!Models/
-!Views/
-!Data/
-!Services/
-!wwwroot/
+#!Controllers/
+#!Models/
+#!Views/
+#!Data/
+#!Services/
+#!wwwroot/
 
 #######################################################
 # Allow All Files Inside Allowed Folders
 #######################################################
-!Controllers/**
-!Models/**
-!Views/**
-!Data/**
-!Services/**
+#!Controllers/**
+#!Models/**
+#!Views/**
+#!Data/**
+#!Services/**
 !wwwroot/**
 
 #######################################################
